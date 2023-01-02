@@ -1,0 +1,225 @@
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+.pequeño{
+    display: none;
+}
+nav{
+    width: 100%;
+    height: 500px;;
+    display: flex;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+nav .container{
+    margin-left: 20px;
+    width: 300px;
+    height: 470px;
+    background-color: rgb(17, 245, 245);
+    border-radius: 5%;
+    margin-left: -8px;
+}
+
+nav .container .titulo{
+    text-align: center;
+    font-size: 20px;
+    margin-top: 5px;
+    padding: 8px;
+    display: block;
+    text-decoration: underline;
+}
+
+nav .container .titulo a{
+    text-decoration: none;
+    color: black;
+}
+
+nav .container p{
+    text-align: center;
+    font-size: 15px;
+    margin-right: 10px;
+    margin-left: 10px;
+    color: white;
+}
+
+nav .container .proyecto{
+    width: 250px;
+    background-size: cover;
+    height: 250px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: block;
+}
+
+nav .container .footer{
+    display: flex;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+nav .container .footer img{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    margin-top: -20px;
+}
+
+nav .container .footer a{
+    text-decoration: none;
+    color: black;
+    margin-top: 5px;
+    padding: 12px;
+}
+
+nav .container .footer .name{
+    margin-left: -15px;
+}
+
+nav .container:hover{
+    margin-right: 50px;
+    margin-left: 30px;
+    rotate: -10deg;
+    margin-top: -15px;
+}
+
+@media (max-width: 1540px) {
+    nav{
+        width: 100%;
+        height: 500px;;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 150px;
+    }
+}
+
+@media (max-width: 1360px) {
+    nav{
+        width: 100%;
+        height: 500px;;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 90px;
+    }
+}
+
+@media (max-width: 1290px) {
+    nav{
+        width: 100%;
+        height: 500px;;
+        display: flex;
+        margin-top: 100px;
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 1220px) {
+    .pequeño{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 300px;
+    }
+
+    .tarjetas{
+        display: none;
+    }
+}
+
+@media (max-width: 1000px) {
+    .pequeño{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 180px;
+    }
+}
+
+@media (max-width: 830px) {
+    .pequeño{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 100px;
+    }
+}
+
+@media (max-width: 725px) {
+    .pequeño{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 70px;
+    }
+}
+
+@media (max-width: 680px) {
+    .pequeño{
+        display: flex;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 630px) {
+    .tarjetas{
+        display: inline-block;
+        padding-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 140px;
+    }
+
+    .pequeño{
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .tarjetas{
+        display: inline-block;
+        padding-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 80px;
+    }
+}
+
+@media (max-width: 430px) {
+    .tarjetas{
+        display: inline-block;
+        padding-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 380px) {
+    .tarjetas{
+        display: inline-block;
+        padding-bottom: 30px;
+        margin-top: 25px;
+        margin-left: 10px;
+    }
+}
+
+@media (max-width: 340px) {
+    nav .container{
+        margin-left: 20px;
+        width: 250px;
+        height: 470px;
+        background-color: rgb(17, 245, 245);
+        border-radius: 5%;
+        margin-left: -8px;
+    }
+
+    nav .container .proyecto{
+        width: 200px;
+        background-size: cover;
+        margin-left: 20px;
+    }
+
+    nav .container .footer img{
+        margin-top: -25px;
+    }
+    
+    nav .container .footer .name{
+        margin-top: -2px;
+    }    
+}
